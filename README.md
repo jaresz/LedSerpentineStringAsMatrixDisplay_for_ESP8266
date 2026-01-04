@@ -1,4 +1,4 @@
-# esp8266_NeoPixelString2balcony
+# esp8266_NeoPixelString_balcony
 
 This project runs colorful lighting effects on a 224-LED NeoPixel strip driven by an ESP8266.
 author: jaresz https://github.com/jaresz
