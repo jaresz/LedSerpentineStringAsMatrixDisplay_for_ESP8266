@@ -53,5 +53,11 @@ platformio run --target upload
 - Visual indicators: purple corners pulsing = AP/config mode; blue pulsing corners = attempting to connect; green flash = connected; red flash = connection failed.
 - To clear saved WiFi settings and force the device into setup mode, press and hold the config/reset button (GPIO0) for ~5 seconds.
 
+## Web interface
+![Alt text](./doc/web_interface.png)
+The device hosts a simple web UI (available at its LAN IP) that displays connection status and current animation.
+It provides controls for selecting effects, adjusting speed and drawing on LED matrix.
+
+
 
 
