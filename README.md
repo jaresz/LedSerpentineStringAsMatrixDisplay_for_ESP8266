@@ -9,6 +9,14 @@ Overview
 	- Top-left is LED 0, top-right is LED 31
 	- Row 2 ends at LED 32 on the right (serpentine layout alternates direction each row)
 
+Animations
+- Starfield: moving stars crossing the matrix from left to right.
+- Star Warp: first-person perspective warp-through-stars effect.
+- Nebula Swirl: rotating colorful nebula/clouds with smooth color shifts.
+- Matrix Rain: green "falling characters" (Matrix-style) across the 32x7 matrix.
+- Calm Fire: a low-brightness, calm burning fire effect.
+
+These animations are cycled automatically when the device is set to the automatic mode (each runs for approximately 10 seconds).
 Wiring
 - Data (middle wire) -> digital pin 13 (GPIO13) on the board (NodeMCU label: D7)
 - +5V (power) -> LED V+
@@ -35,4 +43,6 @@ Build & Upload
 ```bash
 platformio run --target upload
 ```
+
+
 
