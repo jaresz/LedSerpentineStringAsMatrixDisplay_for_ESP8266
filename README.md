@@ -26,7 +26,8 @@ These animations are cycled automatically when the device is set to the automati
 
 Wiring diagram:
 
-![Wiringt](doc/led_serpentine_01_bb.svg)
+
+<img src="doc/led_serpentine_01_bb.svg" alt="Wiring" style="width: 100%; height: auto;">
 
 Notes
 - The data pin used in code is `ledStripPin = 13` and the LED count is `ledStripNumpixels = 224` (see `src/main.cpp`).
