@@ -26,13 +26,7 @@ These animations are cycled automatically when the device is set to the automati
 
 Wiring diagram (logical):
 
-	ESP8266/NodeMCU            LED Strip (WS2812)
-	----------------            ------------------
-	[USB / 5V supply]---+-------+ V+ (+5V)
-											|       +-----------
-											|       |  LED data -> (middle wire) -> `D7` (GPIO13)
-											|       +-----------
-								GND --+------------------> GND
+![Wiringt](doc/led_serpentine_01_bb.svg)
 
 Notes
 - The data pin used in code is `ledStripPin = 13` and the LED count is `ledStripNumpixels = 224` (see `src/main.cpp`).
@@ -54,7 +48,7 @@ platformio run --target upload
 - To clear saved WiFi settings and force the device into setup mode, press and hold the config/reset button (GPIO0) for ~5 seconds.
 
 ## Web interface
-![Alt text](./doc/web_interface.png)
+![Web Panel](./doc/web_interface.png)
 The device hosts a simple web UI (available at its LAN IP) that displays connection status and current animation.
 It provides controls for selecting effects, adjusting speed and drawing on LED matrix.
 
