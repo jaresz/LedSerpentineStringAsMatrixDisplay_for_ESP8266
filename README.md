@@ -24,7 +24,7 @@ These animations are cycled automatically when the device is set to the automati
 - GND -> LED GND
 - Important: connect ESP8266 GND and LED strip GND together (common ground)
 
-Wiring diagram (logical):
+Wiring diagram:
 
 ![Wiringt](doc/led_serpentine_01_bb.svg)
 
